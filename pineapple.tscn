@@ -1,0 +1,206 @@
+[gd_scene format=4 uid="uid://yl5tu5nctfjv"]
+
+[ext_resource type="Texture2D" uid="uid://c5uaw4u6oyog1" path="res://assets/images/Collectables/Collected.png" id="1_5josp"]
+[ext_resource type="Script" uid="uid://djt08hjw25vl6" path="res://pineapple.gd" id="1_ucww4"]
+[ext_resource type="Texture2D" uid="uid://ct2g7ptbf5dhl" path="res://assets/images/Collectables/Pineapple.png" id="2_ucww4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nc528"]
+atlas = ExtResource("1_5josp")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fh24y"]
+atlas = ExtResource("1_5josp")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b67vw"]
+atlas = ExtResource("1_5josp")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nrphs"]
+atlas = ExtResource("1_5josp")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5wadi"]
+atlas = ExtResource("1_5josp")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2arwx"]
+atlas = ExtResource("1_5josp")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1u7f7"]
+atlas = ExtResource("2_ucww4")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uq8w3"]
+atlas = ExtResource("2_ucww4")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t15c8"]
+atlas = ExtResource("2_ucww4")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pic8n"]
+atlas = ExtResource("2_ucww4")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2cml4"]
+atlas = ExtResource("2_ucww4")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tqnqh"]
+atlas = ExtResource("2_ucww4")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mebkk"]
+atlas = ExtResource("2_ucww4")
+region = Rect2(192, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fo2bg"]
+atlas = ExtResource("2_ucww4")
+region = Rect2(224, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_75ich"]
+atlas = ExtResource("2_ucww4")
+region = Rect2(256, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ysdxs"]
+atlas = ExtResource("2_ucww4")
+region = Rect2(288, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lo33n"]
+atlas = ExtResource("2_ucww4")
+region = Rect2(320, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dlraq"]
+atlas = ExtResource("2_ucww4")
+region = Rect2(352, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rqlxa"]
+atlas = ExtResource("2_ucww4")
+region = Rect2(384, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vakkj"]
+atlas = ExtResource("2_ucww4")
+region = Rect2(416, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0g52f"]
+atlas = ExtResource("2_ucww4")
+region = Rect2(448, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0225y"]
+atlas = ExtResource("2_ucww4")
+region = Rect2(480, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3ovty"]
+atlas = ExtResource("2_ucww4")
+region = Rect2(512, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_86yb8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nc528")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fh24y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b67vw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nrphs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5wadi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2arwx")
+}],
+"loop": 1,
+"name": &"Collected",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1u7f7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uq8w3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t15c8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pic8n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2cml4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tqnqh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mebkk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fo2bg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_75ich")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ysdxs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lo33n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dlraq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rqlxa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vakkj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0g52f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0225y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3ovty")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 20.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_6knhs"]
+radius = 6.0
+height = 20.666668
+
+[sub_resource type="AudioStreamWAV" id="AudioStreamWAV_ucww4"]
+data = PackedByteArray("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")
+format = 3
+
+[node name="Pineapple" type="Area2D" unique_id=498845818]
+texture_filter = 1
+script = ExtResource("1_ucww4")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1436738681]
+sprite_frames = SubResource("SpriteFrames_86yb8")
+animation = &"Collected"
+autoplay = "default"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1345395544]
+position = Vector2(0, 1.3333334)
+shape = SubResource("CapsuleShape2D_6knhs")
+
+[node name="Collectedsoundeffect" type="AudioStreamPlayer2D" parent="." unique_id=612869002]
+stream = SubResource("AudioStreamWAV_ucww4")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="animation_looped" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_looped"]
